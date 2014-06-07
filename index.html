@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Leap Maestro</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/hackday.css" rel="stylesheet">
+    <script src="js/underscore-min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/howler.js"></script>
+    <script src="js/hackday.js"></script>
+		<script src="js/leap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div id="pointer"></div>
+			<div class="row">
+				<div class="span7">
+					<h2>Playing: Daft Punk - Get Lucky 
+					<input type="button" value="start" onclick="javascript:start();"/></h2>
+				</div>
+				<div class="span5">
+					<h3 class="points">Points: <span id="score">0</span></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div id="instrument0" class="span4 instrument">
+					<h3>Daft Punk</h3>
+					<h4>Target</h4>
+					<div class="progress progress-striped">
+						<div id="targetbar" class="bar bar-warning" style="width: 0%;"></div>
+					</div>
+					<h4>Volume</h4>
+					<div class="progress progress-striped">
+						<div id="volume" class="bar bar-success" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div id="instrument1" class="span4 instrument">
+					<h3>Pharrell Williams</h3>
+					<h4>Target</h4>
+					<div class="progress progress-striped">
+						<div id="targetbar" class="bar bar-warning" style="width: 0%;"></div>
+					</div>
+					<h4>Volume</h4>
+					<div class="progress progress-striped">
+						<div id="volume" class="bar bar-success" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div id="instrument2" class="span4 instrument">
+					<h3>Drums</h3>
+					<h4>Target</h4>
+					<div class="progress progress-striped">
+						<div id="targetbar" class="bar bar-warning" style="width: 0%;"></div>
+					</div>
+					<h4>Volume</h4>
+					<div class="progress progress-striped">
+						<div id="volume" class="bar bar-success" style="width: 0%;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="status0" class="span4 status">
+					<h4>Timing</h4>
+					<div class="progress progress-striped">
+						<div class="bar" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div id="status1" class="span4 status">
+					<h4>Timing</h4>
+					<div class="progress progress-striped">
+						<div class="bar" style="width: 0%;"></div>
+					</div>
+				</div>
+				<div id="status2" class="span4 status">
+					<h4>Timing</h4>
+					<div class="progress progress-striped">
+						<div class="bar" style="width: 0%;"></div>
+					</div>
+				</div>
+			</div>
+    </div>
+  </body>
+</html>

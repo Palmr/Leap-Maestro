@@ -1,0 +1,45 @@
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+.points {
+	float: right;
+}
+
+
+#scene {
+    height: 100%;
+}
+
+.instrument {
+	height: 600px;
+}
+
+#instrument0 {
+    background-image: url('../img/daft.png');
+}
+
+#instrument1 {
+    background-image: url('../img/pharrell.png');
+}
+
+#instrument2 {
+    background-image: url('../img/drums.png');
+}
+
+.instrument.shouldBePlaying {
+	border-bottom: 10px solid #6f6;
+}
+
+#instrument0.highlight{
+    background-image: url('../img/highlight.png'), url('../img/daft.png');
+}
+
+#instrument1.highlight {
+    background-image: url('../img/highlight.png'), url('../img/pharrell.png');
+}
+
+#instrument2.highlight {
+    background-image: url('../img/highlight.png'), url('../img/drums.png');
+}
